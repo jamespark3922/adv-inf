@@ -9,8 +9,6 @@ This repository is based on [self-critical.pytorch](https://github.com/ruotianlu
 ## Requirements
 Python 2.7 (because there is no [coco-caption](https://github.com/tylin/coco-caption) version for python 3)  
 PyTorch 0.4 (along with torchvision)  
-[cider](https://github.com/jamespark3922/cider) (already added as submodule?)  
-[coco-caption](https://github.com/tylin/coco-caption)  
 [densevid_eval](https://github.com/jamespark3922/densevid_eval) (for activitynet evaluation)  
 java to run meteor.jar file
 
