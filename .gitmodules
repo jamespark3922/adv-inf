@@ -1,0 +1,3 @@
+[submodule "densevid_eval"]
+	path = densevid_eval
+	url = https://github.com/ranjaykrishna/densevid_eval
