@@ -39,11 +39,11 @@ The normal inference using greedymax or beamsearch can be run with the following
 ```angular2html
 python eval.py --g_model_path video_ckpt/gen_best.pth --infos_path video_ckpt/infos.pkl --d_model_path video_ckpt/dis_best.pth --sample_max 1 --id $id --beam_size $beam_size
 ```
-and will be saved in `densevid_eval/caption_$id.json`
+and will be saved in `densevid_eval/caption_$id.json`. You can also disable `--d_model_path` if you do not wish to score and evaluate the discriminator.
 
-You can disable `--d_model_path` if you do not wish to score and evaluate the discriminator.
+**Adversarial Inference** 
 
-Adversarial Inference (sampling $num_samples sentences and choosing the best one with discriminator) can be run with 
+Sampling $num_samples sentences and choosing the best one with discriminator can be run with 
 ```angular2html
 python eval.py --g_model_path video_ckpt/gen_best.pth --infos_path video_ckpt/infos.pkl --d_model_path video_ckpt/dis_best.pth --sample_max 0 --num_samples $num_samples --temperature $temperature --id $id
 ```
