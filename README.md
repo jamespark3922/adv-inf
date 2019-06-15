@@ -21,7 +21,7 @@ java to run meteor.jar file
 We share the input labels and features in this [folder](https://drive.google.com/drive/u/0/folders/1Xaw8yaVa-V63KOL3m3JnRFfkmPtgfeO1). (Scripts to preprocess the labels will be available soon.)
 
 ### Features
-- **renext101-64f (126GB)** extracted from [r3d repository](https://github.com/kenshohara/video-classification-3d-cnn-pytorch), mean-pooled into 10 segments for eah clip
+- **renext101-64f (126GB)** extracted from [r3d repository](https://github.com/kenshohara/video-classification-3d-cnn-pytorch)
 - **resnet152 (14GB)**, extracted 100 frames for each video
 - **bottomup labels (16GB)** with confidence score, extracted 3 frames for each clip
 
