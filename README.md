@@ -7,6 +7,9 @@ This repository is based on [self-critical.pytorch](https://github.com/ruotianlu
 - Adversarial Inference in `eval_utils.py`
 
 ## Requirements
+Clone the repository recursively.
+```git clone --recursive https://github.com/jamespark3922/adv-inf```
+
 Python 2.7 (because there is no [coco-caption](https://github.com/tylin/coco-caption) version for python 3)  
 PyTorch 0.4 (along with torchvision)  
 [densevid_eval](https://github.com/jamespark3922/densevid_eval) (for activitynet evaluation)  
