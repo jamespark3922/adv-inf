@@ -59,10 +59,10 @@ python evaluateCaptionsDiversity.py -s $submission_file
 ## Reference
 
 ```
-@article{park2018advinf,
+@article{park2019advinf,
   title= Adversarial Inference for Multi-Sentence Video Descriptions,
   author={Park, Jae Sung and Rohrbach, Marcus and Darrell, Trevor and Rohrbach, Anna},
   jorunal={CVPR 2019},
-  year={2018}
+  year={2019}
 }
 ```
