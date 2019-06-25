@@ -2,13 +2,13 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from .VideoDiscriminator5 import VideoDiscriminator5
+# from .VideoDiscriminator5 import VideoDiscriminator5
 from .HybridDiscriminator import HybridDiscriminator
 from .MultiModalGenerator import MultiModalGenerator
-from .ShowTellModel import ShowTellModel
-from .FCModel import FCModel
-from .OldModel import ShowAttendTellModel, AllImgModel
-from .AttModel import *
+# from .ShowTellModel import ShowTellModel
+# from .FCModel import FCModel
+# from .OldModel import ShowAttendTellModel, AllImgModel
+# from .AttModel import *
 
 def setup(opt):
 
