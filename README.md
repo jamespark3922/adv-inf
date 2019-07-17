@@ -53,16 +53,14 @@ python eval.py --g_model_path video_ckpt/gen_best.pth --infos_path video_ckpt/in
 
 ### Generated Catpions ###
 
-We share our final model captions [here](https://drive.google.com/drive/folders/1xuP1r4mS_m_qgJqp9dcJBxHwVgEs2QVY): 
-
 You can run the language metrics to reproduce the results
 ```angular2html
-python para-evaluate.py -s mle_sample_2disc_pair.json --verbose
+python para-evaluate.py -s $submission_file --verbose
 ```
 
 and the diversity metrics **(Div-N, Re-N)** in paper.
 ```angular2html
-python evaluateCaptionsDiversity.py mle_sample_2disc_pair.json
+python evaluateCaptionsDiversity.py $submission_file
 ```
 
 ## Reference
