@@ -51,9 +51,18 @@ Sampling $num_samples sentences and choosing the best one with discriminator can
 python eval.py --g_model_path video_ckpt/gen_best.pth --infos_path video_ckpt/infos.pkl --d_model_path video_ckpt/dis_best.pth --sample_max 0 --num_samples $num_samples --temperature $temperature --id $id
 ```
 
-You can also run the diversity metrics **(Div-N, Re-N)** in paper.
+### Generated Catpions ###
+
+We share our final model captions [here](https://drive.google.com/drive/folders/1xuP1r4mS_m_qgJqp9dcJBxHwVgEs2QVY): 
+
+You can run the language metrics to reproduce the results
 ```angular2html
-python evaluateCaptionsDiversity.py -s $submission_file
+python para-evaluate.py -s mle_sample_2disc_pair.json --verbose
+```
+
+and the diversity metrics **(Div-N, Re-N)** in paper.
+```angular2html
+python evaluateCaptionsDiversity.py mle_sample_2disc_pair.json
 ```
 
 ## Reference
